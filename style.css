@@ -203,3 +203,18 @@ body {
     stroke: currentColor;
     stroke-width: 2;
 }
+
+/* Efeito de coração vermelho preenchido */
+.like-btn.liked {
+    color: #e31b23;
+}
+
+.like-btn.liked svg {
+    fill: #e31b23;
+    stroke: #e31b23;
+}
+
+/* Efeito no botão de salvar */
+.bookmark-btn.bookmarked svg {
+    fill: #ffffff;
+}
